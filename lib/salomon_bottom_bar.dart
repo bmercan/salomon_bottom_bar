@@ -138,7 +138,7 @@ class SalomonBottomBar extends StatelessWidget {
                                           _selectedColor.withOpacity(0.0),
                                           _selectedColor,
                                           t),
-                                      fontWeight: FontWeight.w600,
+                                      // fontWeight: FontWeight.w600,
                                     ),
                                     child: item.title,
                                   ),
