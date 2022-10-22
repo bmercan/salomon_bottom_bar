@@ -86,7 +86,7 @@ class SalomonBottomBar extends StatelessWidget {
                       _selectedColor.withOpacity(0.0),
                       _selectedColor.withOpacity(selectedColorOpacity ?? 0.1),
                       t),
-                  shape: itemShape,
+                  // shape: itemShape,
                   child: InkWell(
                     onTap: () => onTap?.call(items.indexOf(item)),
                     customBorder: itemShape,
