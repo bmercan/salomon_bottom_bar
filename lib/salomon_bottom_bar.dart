@@ -98,14 +98,8 @@ class SalomonBottomBar extends StatelessWidget {
                     child: Padding(
                       padding: itemPadding -
                           (Directionality.of(context) == TextDirection.ltr
-                              ? EdgeInsets.only(
-                                  right: itemPadding.right * t,
-                                  top: 20,
-                                  bottom: 20)
-                              : EdgeInsets.only(
-                                  left: itemPadding.left * t,
-                                  top: 20,
-                                  bottom: 20)),
+                              ? EdgeInsets.only(right: itemPadding.right * t)
+                              : EdgeInsets.only(left: itemPadding.left * t)),
                       child: Row(
                         children: [
                           IconTheme(
